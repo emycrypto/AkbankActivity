@@ -1,0 +1,10 @@
+{
+  "minimumVersion": 4,
+  "enabled": true,
+  "versionLock": false,
+  "systemLock": false,
+  "notEnabledBecause": "",
+  "message": "Uygulama şu anda kullanıma kapalıdır.",
+  "configVersion": 1,
+  "updatedAt": "2026-08-25T00:00:00Z"
+}
