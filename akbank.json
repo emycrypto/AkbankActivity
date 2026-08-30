@@ -8,9 +8,9 @@
   "configVersion": 1,
   "updatedAt": "2026-08-30T00:00:00Z",
   "texts": {
-    "login.title": "Giriş - Hata",
-    "login.goodMorning": "İyi günler - Hata",
-    "login.signIn": "Giriş - Hata",
+    "login.title": "Giriş",
+    "login.goodMorning": "İyi günler",
+    "login.signIn": "Giriş",
     "pin.forgot": "Şifreni mi unuttun?",
     "navigation.home": "Ana sayfa",
     "navigation.transfers": "Transfer ve ödemeler",
