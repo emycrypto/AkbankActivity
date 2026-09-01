@@ -1,6 +1,6 @@
 {
   "minimumVersion": 4,
-  "enabled": false,
+  "enabled": true,
   "versionLock": false,
   "systemLock": false,
   "notEnabledBecause": "",
