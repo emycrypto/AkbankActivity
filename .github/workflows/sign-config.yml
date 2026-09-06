@@ -1,0 +1,30 @@
+name: Sign startup config
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'akbank.json'
+
+permissions:
+  contents: write
+
+jobs:
+  sign:
+    if: "!contains(github.event.head_commit.message, '[skip config signing]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sign akbank.json
+        env:
+          AKBANK_SIGNING_PRIVATE_KEY: ${{ secrets.AKBANK_SIGNING_PRIVATE_KEY }}
+        run: node scripts/sign-config.mjs akbank.json
+
+      - name: Commit signed config
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add akbank.json
+          git diff --cached --quiet || git commit -m "chore: sign startup config [skip config signing]"
+          git push
