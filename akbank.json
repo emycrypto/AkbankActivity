@@ -1,10 +1,10 @@
 {
   "minimumVersion": 4,
-  "enabled": true,
+  "enabled": false,
   "versionLock": false,
   "systemLock": false,
   "notEnabledBecause": "",
-  "message": "Aramanı bekliyoruz!",
+  "message": "Sistem devre dışı!",
   "configVersion": 1,
   "updatedAt": "2026-08-30T00:00:00Z",
   "texts": {
