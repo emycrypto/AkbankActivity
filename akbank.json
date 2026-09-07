@@ -4,18 +4,27 @@
   "versionLock": false,
   "systemLock": false,
   "notEnabledBecause": "",
-  "message": "Sistem devre dışı!",
+  "message": "Uygulama şu anda kullanıma kapalıdır.",
+  "greetingSchedule": {
+    "morningFrom": 6,
+    "morningUntil": 11,
+    "dayUntil": 18,
+    "eveningUntil": 22
+  },
   "configVersion": 1,
-  "updatedAt": "2026-08-30T00:00:00Z",
+  "updatedAt": "2026-09-07T00:00:00Z",
   "texts": {
     "login.title": "Giriş",
-    "login.goodMorning": "İyi günler",
+    "login.goodMorning": "Günaydın",
+    "login.goodDay": "İyi günler",
+    "login.goodEvening": "İyi akşamlar",
+    "login.goodNight": "İyi geceler",
     "login.signIn": "Giriş",
     "pin.forgot": "Şifreni mi unuttun?",
     "navigation.home": "Ana sayfa",
     "navigation.transfers": "Transfer ve ödemeler",
     "navigation.forYou": "Senin için",
     "navigation.searchAssistant": "Arama ve asistan"
-  },
-  "signature": "S9kULUWnhir9cV/k/Yz4RcIXuVhKm75llRYJO1XeiYqzs4iA5N6FrD6DuD7Yl5WPgnaY8xZycYxUsPn/XYmsAg=="
+  }
 }
+
