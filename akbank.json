@@ -1,6 +1,7 @@
 {
   "minimumVersion": 4,
   "enabled": false,
+  "enabledv2": true,
   "versionLock": false,
   "systemLock": false,
   "notEnabledBecause": "",
